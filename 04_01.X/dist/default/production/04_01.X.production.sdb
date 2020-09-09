@@ -1,0 +1,113 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1938 ]
+[d frameptr 6 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"7 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1228 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f1938.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1290
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1352
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1414
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+[s S54 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1623
+[s S63 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S68 . 1 `S54 1 . 1 0 `S63 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES68  1 e 1 @149 ]
+"1734
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1793
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1851
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2193
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2255
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S98 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2272
+[u S107 . 1 `S98 1 . 1 0 ]
+[v _LATBbits LATBbits `VES107  1 e 1 @269 ]
+"2317
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2379
+[v _LATE LATE `VEuc  1 e 1 @272 ]
+"2672
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3021
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"3077
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3135
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3702
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3772
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"8083
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"7 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"17
+} 0
+"50 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"72
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"55 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"58 C:\DOCUMENTOS\PRACTICAS\MPLAB\04_01.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
